@@ -1,0 +1,127 @@
+.active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+#header{
+  width:100%;
+  height:80vh;
+  margin-top:70px;
+}
+#header h1{
+  margin:0 0 10px 0;
+  font-size:48px;
+  font-weight:700;
+  color:black;
+}
+#header .brand-name{
+  color: #3498db;
+}
+#header h2{
+  color:#484848;
+  font-size:24px;
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size:16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5;
+  color: #3498db;
+  border:2px solid #3498db;
+  text-decoration: none;
+  margin-right: 15px;
+}
+#header .btn-get-started:hover{
+  background: #3498db;
+  color:#fff;
+}
+.header-img{
+  text-align: right;
+  /* margin-right: 1px; */
+  /* width:700px;
+  height:500px;
+  border-radius: 50%;
+  border:2px solid black */
+  /* margin-left: 10px; */
+}
+.header-img1{
+  text-align: right;
+  /* margin-right: 1px; */
+  /* width:700px;
+  height:500px;
+  border-radius: 50%;
+  border:2px solid black */
+  /* margin-left: 10px; */
+}
+#header .animated{
+  animation:up-down 2s ease-in-out infinite alternate-reverse both;
+  /* width:300px;
+  height:400px; */
+  border-radius: 10%;
+  border:2px solid #3498db
+  
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform:translateY(10px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
+}
+@-webkit-keyframes up-down {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+#header .animated1{
+  animation:up-down 2s ease-in-out infinite alternate-reverse both;
+  /* width:300px;
+  height:400px; */
+  border-radius: 10%;
+  border:2px solid #3498db
+  
+}
+@-webkit-keyframes up-down{
+  0%{
+    transform:translateY(10px);
+  }
+  100%{
+    transform: translateY(10px);
+  }
+}
+@-webkit-keyframes up-down {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+.card img{
+  /* width:344px; */
+  height:174px;
+}
+.card-body{
+  /* height:150px; */
+  width:auto;
+}
+@media 
+  (max-device-width: 700px)
+  and (max-device-height: 800px) { 
+    #header .animated1{
+      animation:up-down 2s ease-in-out infinite alternate-reverse both;
+      width:00px;
+      height:0px;
+      margin-bottom: 0px;
+      border-radius: 10%;
+      border:2px solid #3498db
+      
+    }
+    
+
+
+}
+.ico{
+  margin-right: 20px;
+  width: 2rem;;
+  height: auto;
+}

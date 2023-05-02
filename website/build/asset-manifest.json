@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc95874d.css",
+    "main.js": "/static/js/main.3d6adf31.js",
+    "static/media/data science.jpg": "/static/media/data science.83b775f674ca30a8b43f.jpg",
+    "static/media/resume.pdf": "/static/media/resume.cc85fa5b326b05e74465.pdf",
+    "static/media/vivek.jpeg": "/static/media/vivek.5b8285f8e4e5f357ee84.jpeg",
+    "index.html": "/index.html",
+    "main.fc95874d.css.map": "/static/css/main.fc95874d.css.map",
+    "main.3d6adf31.js.map": "/static/js/main.3d6adf31.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc95874d.css",
+    "static/js/main.3d6adf31.js"
+  ]
+}
