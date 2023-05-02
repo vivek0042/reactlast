@@ -1,0 +1,15 @@
+.in{
+  /* display:flex;
+  flex-direction: column; */
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.in input{
+  margin:30px 0;
+  padding:5px 10px;
+  border:2px solid black;
+  border-radius: 5px;
+}
